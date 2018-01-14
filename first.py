@@ -1,7 +1,14 @@
-#! /usr/bin/python
+#! /usr/bin/env python
 
-name = "hello"
+import sys
+str = "Hello World"
+print str
+print str[0]
+print str[2:7]
+print str[2:]
+print sys.argv
+exit(0)
 
-raw_input("please input and enter down\n")
 
-print name
+
+
